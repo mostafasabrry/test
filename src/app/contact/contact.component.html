@@ -1,0 +1,47 @@
+<section class="contact">
+    <div class="container">
+        <h2 class="text-uppercase text-center fs-1 fw-bold pt-4">contact component</h2>
+        <div class="star text-center pb-4  d-flex justify-content-center">
+            <div class="line-1"></div>
+            <i class="fa-solid fa-star fs-4"></i>
+            <div class="line-1"></div>
+        </div>
+
+        <form action="" class="w-50 m-auto">
+
+           @if (text==='') {
+            <label class="d-none" for="userName">userName</label>
+           }@else{
+            <label for="userName">userName</label>
+           }
+            <input [(ngModel)]="text" type="text"  id="userName" placeholder="userName" name="userName" class="form-control border-0 border-bottom py-3 m-3">
+
+            
+            @if (age==='') {
+                <label class="d-none" for="userAge">userAge</label>
+               }@else{
+                <label for="userAge">userAge</label>
+               }
+            <input [(ngModel)]="age" type="text" id="userAge" placeholder="userAge" name="userAge" class="form-control border-0 border-bottom py-3 m-3">
+
+
+            @if (email==='') {
+                <label class="d-none" for="userEmail">userEmail</label>
+               }@else{
+                <label for="userEmail">userEmail</label>
+               }
+            <input [(ngModel)]="email" type="texr" id="userEmail" placeholder="userEmail" name="userEmail" class="form-control border-0 border-bottom py-3 m-3" >
+             
+            @if (pass==='') {
+                <label class="d-none" for="userPassword">userPassword</label>
+               }@else{
+                <label for="userPassword">userPassword</label>
+               }
+            <input [(ngModel)]="pass"  type="password" id="userPassword" placeholder="userPassword" name="userPassword" class="form-control border-0 border-bottom py-3 m-3">
+            
+
+            <button class="my-btn ms-auto">Send Message</button>
+        </form>
+       
+    </div>
+</section>

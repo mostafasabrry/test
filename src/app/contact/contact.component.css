@@ -1,0 +1,27 @@
+h2{
+    color:#2C3E50;
+    text-align: center;
+}
+.line-1{
+    width: 100px;
+    height: 4px;
+    margin: 10px;
+    background-color: #2C3E50;
+}
+
+.my-btn {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: #1ABC9C;
+    border: white;
+    border-radius: 20px;
+}
+
+input:focus{
+ 
+  box-shadow: none;
+}
+label{
+    color: #1ABC9C;
+}

@@ -1,0 +1,16 @@
+.footer{
+    background-color: #2C3E50;
+    color: white;
+    padding: 80px;
+}
+.icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+.footer-2{
+    background-color:#1A252F;
+    color: white;
+    padding: 20px;
+}

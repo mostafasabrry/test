@@ -1,0 +1,78 @@
+<section class="portfolio  m-4">
+    <div class="container">
+        @if (isClicked) {
+            <div class="dark-layer  d-flex justify-content-center align-items-center "  (click)="hideLayer($event)"  >
+                <img [src]="imglink" class="w-25" alt="" ></div>
+        }
+       
+         <h2 class="fs-1 fw-bold pt-4">portfolio component</h2>
+         <div class="star text-center pb-4  d-flex justify-content-center">
+            <div class="line-1"></div>
+            <i class="fa-solid fa-star fs-4"></i>
+            <div class="line-1"></div>
+        </div>
+
+        <div class="row g-4 ">
+            <div class="col-md-4">
+                <div class="item">
+                 <div class="position-relative " (click)="show('/images/port2.png')"> <img src="/images/port2.png" class="w-100 " alt="">
+                    <div class="layer d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-1 text-white"></i>
+                    </div>
+                </div>
+                  
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+                 <div class="position-relative" (click)="show('/images/port3.png')"> <img src="/images/port3.png" class="w-100 " alt="">
+                    <div class="layer d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-1 text-white"></i>
+                    </div>
+                </div>
+                  
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+                 <div class="position-relative" (click)="show('/images/poert1.png')"> <img src="/images/poert1.png" class="w-100 " alt="">
+                    <div class="layer d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-1 text-white"></i>
+                    </div>
+                </div>
+                  
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+                 <div class="position-relative" (click)="show('/images/port2.png')"> <img src="/images/port2.png" class="w-100 " alt="">
+                    <div class="layer d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-1 text-white"></i>
+                    </div>
+                </div>
+                  
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+                 <div class="position-relative" (click)="show('/images/port3.png')"> <img src="/images/port3.png" class="w-100 " alt="">
+                    <div class="layer d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-1 text-white"></i>
+                    </div>
+                </div>
+                  
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+                 <div class="position-relative" (click)="show('/images/poert1.png')"> <img src="/images/poert1.png" class="w-100 " alt="">
+                    <div class="layer d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-plus fs-1 text-white"></i>
+                    </div>
+                </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,11 @@
+.navbar-nav  .nav-item .nav-link{
+    color: white !important;
+}
+.navbar{
+    background-color: #2C3E50;
+    padding: 25px;
+    
+}
+.my-bg{
+    background-color: #1ABC9C;
+}
